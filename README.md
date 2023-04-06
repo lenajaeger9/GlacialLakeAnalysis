@@ -1,6 +1,6 @@
 # GlacialLakeAnalysis
 
-Glacial Lake Analysis
+Glacial Lake Analysis 
 
 This script conducts a full analysis of glacial lakes. 
 It can be adjusted to any region.
