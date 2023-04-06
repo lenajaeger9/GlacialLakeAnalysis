@@ -10,7 +10,7 @@ library(mapview)
 library(ggplot2)
 library(dplyr)
 
-source("Functions.R")
+source("path/to/file/Functions.R") # Functions document provided via GitHub
 
 getwd()
 # setwd()
@@ -26,11 +26,11 @@ getwd()
 # BACKGROUND: this is due the different band numbers and designations of the Landsat satellites
 
 # path to data folder
-main_path <- "/Users/lenajaeger/Documents/Semester1/Programming_FinalTask/data/landsat"
+main_path <- "path/to/folder/data/landsat"
 # path to Landsat 8 folder
-l8_path <- "/Users/lenajaeger/Documents/Semester1/Programming_FinalTask/data/landsat/L8"
+l8_path <- "path/to/folder/data/landsat/L8"
 # path to Landsat5 folder
-l5_path <- "/Users/lenajaeger/Documents/Semester1/Programming_FinalTask/data/landsat/L5"
+l5_path <- "path/to/folder/data/landsat/L5"
 
 l8_subfolders <- list.dirs(l8_path, recursive = F)
 l5_subfolders <- list.dirs(l5_path, recursive = F)
@@ -39,10 +39,10 @@ bands_l8 <- c("Aero", "B", "G", "R","NIR", "SWIR1", "SWIR2", "Thermal")
 bands_l5 <- c("B", "G", "R", "NIR", "SWIR1", "Thermal", "SWIR2")
 
 # path to where you want to store the processed data (suggested to create a new folder before running)
-lsat_path <- "/Users/lenajaeger/Documents/Semester1/Programming_FinalTask/data/FinalData"
+lsat_path <- "path/to/folder/data/FinalData"
 
 # area of interest (in drive folder AOI are several .gpkg files to try out)
-aoi_extent <- st_read("AOI/AOI.gpkg")
+aoi_extent <- st_read("path/to/file/AOI.gpkg")
 
 
 # Loop to import Landsat scenes, rename bands, crop and stack them and save them in separate folder
@@ -80,13 +80,13 @@ lsat_files <- list.files(lsat_path, full.names = T)
 lsat_files
 
 # load individual preprocessed files
-lsat_1989 <- rast("data/FinalData/19890824.tif")
-lsat_1994 <- rast("data/FinalData/19940721.tif")
-lsat_1999 <- rast("data/FinalData/19990804.tif")
-lsat_2010 <- rast("data/FinalData/20100818.tif")
-lsat_2014 <- rast("data/FinalData/20140712.tif")
-lsat_2019 <- rast("data/FinalData/20190710.tif")
-lsat_2022 <- rast("data/FinalData/20220702.tif")
+lsat_1989 <- rast("path/to/file/data/FinalData/19890824.tif")
+lsat_1994 <- rast("path/to/file/data/FinalData/19940721.tif")
+lsat_1999 <- rast("path/to/file/data/FinalData/19990804.tif")
+lsat_2010 <- rast("path/to/file/data/FinalData/20100818.tif")
+lsat_2014 <- rast("path/to/file/data/FinalData/20140712.tif")
+lsat_2019 <- rast("path/to/file/data/FinalData/20190710.tif")
+lsat_2022 <- rast("path/to/file/data/FinalData/20220702.tif")
 
 
 # take a first look
