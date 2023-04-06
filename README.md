@@ -4,7 +4,7 @@ Glacial Lake Analysis
 
 This script conducts a full analysis of glacial lakes. 
 It can be adjusted to any region.
-It creates water masks, glacial lake outlines and calculates the area of water bodies based on a chosen indice, 
+It creates water masks, glacial lake outlines and calculates the area of water bodies based on a chosen index, 
 that can be changed easily to the desired indices/threshold/region. 
 
 
