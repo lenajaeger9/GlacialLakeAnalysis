@@ -1,6 +1,5 @@
 # GlacialLakeAnalysis
 
-Glacial Lake Analysis 
 
 This script conducts a full analysis of glacial lakes. 
 It can be adjusted to any region.
@@ -20,6 +19,15 @@ It does not claim to be a perfect analysis. Rather, it was the creator's intenti
 
 Also, at various points at the script, path names need to be provided.
 Please customize them according to your desktop. 
-Customization is needed in line 28 to 45, line 250 and 282. 
+Customization is needed in:
+    - line 13,
+    - line 28 to 45
+    - line 82 to 89
+    - line 250 and 
+    - line 282 
+
+It is further suggested to keep the folder structure as follows:
+data >> landsat >> one folder for Landsat 8 and one for Landsat 5
+The two separate folders are due to the differences in bands and renaming. 
 
 If all needed packages are installed and all paths are correctly set, this script runs without error messages.
