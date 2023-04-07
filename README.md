@@ -33,7 +33,7 @@ Customization is needed in:
 * line 282 
 
 It is further suggested to keep the folder structure as follows:
-<img src="https://github.com/lenajaeger9/GlacialLakeAnalysis/blob/main/figures/screenshot.png" alt="suggested folder structure" width="400">
+<img src="https://github.com/lenajaeger9/GlacialLakeAnalysis/blob/main/figures/screenshot.png" alt="suggested folder structure" width="450">
 
 The two separate Landsat folders are due to the differences in bands and renaming.
 If all needed packages are installed and all paths are correctly set, this script runs without error messages.
@@ -41,10 +41,15 @@ If all needed packages are installed and all paths are correctly set, this scrip
 *** 
 ## Results
 Main outputs and advantages of the script are the easy calculation of indices for large numbers of Landsat scenes, the creation of a water mask (binary), the visualization of glacial lake outlines over time and the calculation glacial lake area change.
-![Result: Water Mask Assessment (2014)](https://github.com/lenajaeger9/GlacialLakeAnalysis/blob/main/figures/WaterMaskAssessment2014.png)
-* Exemplary result of the produced Water Mask of the year 2014. 
-![Result: Lake Outlines](https://github.com/lenajaeger9/GlacialLakeAnalysis/blob/main/figures/lake_outlines.png)
-* Exemplary result of the produced Lake Outlines. 
+
+<figure>
+  <img src="https://github.com/lenajaeger9/GlacialLakeAnalysis/blob/main/figures/WaterMaskAssessment2014.png" alt="Water Mask Assessment 2014" width="450">
+  <figcaption>Exemplary result of the Water Mask Assessment 2014</figcaption>
+</figure>
+<figure>
+  <img src="https://github.com/lenajaeger9/GlacialLakeAnalysis/blob/main/figures/lake_outlines.png" alt="lake outlines" width="450">
+  <figcaption>Exemplary result of the produced Lake Outlines</figcaption>
+</figure>
 
 *** 
 ## Discussion 
