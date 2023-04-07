@@ -33,7 +33,7 @@ Customization is needed in:
 * line 282 
 
 It is further suggested to keep the folder structure as follows:
-![suggested folder structure](https://github.com/lenajaeger9/GlacialLakeAnalysis/blob/main/figures/screenshot.png)
+<img src="https://github.com/lenajaeger9/GlacialLakeAnalysis/blob/main/figures/screenshot.png" alt="suggested folder structure" width="400">
 
 The two separate Landsat folders are due to the differences in bands and renaming.
 If all needed packages are installed and all paths are correctly set, this script runs without error messages.
