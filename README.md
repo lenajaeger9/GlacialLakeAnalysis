@@ -43,7 +43,7 @@ If all needed packages are installed and all paths are correctly set, this scrip
 Main outputs and advantages of the script are the easy calculation of indices for large numbers of Landsat scenes, the creation of a water mask (binary), the visualization of glacial lake outlines over time and the calculation glacial lake area change.
 
 <figure>
-  <img src="https://github.com/lenajaeger9/GlacialLakeAnalysis/blob/main/figures/WaterMaskAssessment2014.png" alt="Water Mask Assessment 2014" width="600">
+  <img src="https://github.com/lenajaeger9/GlacialLakeAnalysis/blob/main/figures/WaterMaskAssessment2014.png" alt="Water Mask Assessment 2014" width="550">
   <figcaption>Exemplary result of the Water Mask Assessment 2014</figcaption>
 </figure>
 <figure>
