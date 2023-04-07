@@ -9,10 +9,6 @@ that can be changed easily to the desired indices/threshold/region.
 *** 
 ## Instructions
 
-### Scripts 
-Out of the three provided scripts, the ```Glacial_Lake_Analysis.R``` file is the main script for the analysis. The Functions document is needed for calculating indices (NDWI/NDSI/NDVI).
-The ```LagunaParon.R``` is an illustration how a single glacial lake can be analyzed, the methodology however is similar to the main script. 
-
 ### Data
 Unfortunately it was not possible to directly download data in the script, as the ```RStoolbox``` and ```GetSpatialData``` packages could not be used.
 Therefore, alternatively the needed Data is provided via Google Drive.
@@ -22,7 +18,10 @@ https://drive.google.com/drive/folders/12m56mTpx0kghbT4wn4yUlB-kcRzAvp4S?usp=sha
 
 The Landsat files were downloaded from USGS Earth Explorer (https://earthexplorer.usgs.gov).
 
-### Use of the scripts
+### Scripts
+Out of the three provided scripts, the ```Glacial_Lake_Analysis.R``` file is the main script for the analysis. The Functions document is needed for calculating indices (NDWI/NDSI/NDVI).
+The ```LagunaParon.R``` is an illustration how a single glacial lake can be analyzed, the methodology however is similar to the main script. 
+
 At various points at the script, path names need to be provided.
 Please customize them according to your desktop. 
 
@@ -34,7 +33,7 @@ Customization is needed in:
 * line 282 
 
 It is further suggested to keep the folder structure as follows:
-![suggested folder structure] (/Users/lenajaeger/Documents/Semester1/Programming_FinalTask/screenshot.png)
+![suggested folder structure] ("/Users/lenajaeger/Documents/Semester1/Programming_FinalTask/screenshot.png")
 
 The two separate Landsat folders are due to the differences in bands and renaming.
 If all needed packages are installed and all paths are correctly set, this script runs without error messages.
